@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<h1><span class="blue">Blue</span> Developer Directory</h1>
+		<h2><span class="blue">Find a developer</span> NOW</h2>
+	</div>
+	
+	<div id="menu">
+		<ul>
+			<li class="nav"><a href="index.html">Home</a></li>
+			<li class="nav"><a href="aboutus.html">About Us</a></li>
+			<li class="nav"><a href="browse.html">Browse Developers</a></li>
+			<li class="nav"><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	
+	<div id="left">
+		<h3> Links</h3>
+			<ul>
+				<li><a href="#">SEO</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Ajax</a></li>
+				<li><a href="#">JQuery</a></li>
+				<li><a href="#">Web Design</a></li>
+				<li><a href="#">Web Programing</a></li>
+				<li><a href="#">Content Creation</a></li>
+				<li><a href="#">Internet Marketing</a></li>
+				<li><a href="#">XHTML Templete</a></li>
+			</ul>
+	</div>
+	
+	<div id="content1">
+		<h1> Blue Developers </h1>
+		<h3>Contact Us:</h3>
+		<p>Please use this from to contact a member of our website team.</p>
+		
+	<form action="#.php" method="post">
+		<p>
+			<label for="name">
+			Full Name:
+			</label>
+			<input type="text" name="name">
+		</p>
+	
+		<p>
+			<label for="email">Email Address:</label>
+			<input text="email" name="email">
+		</p>
+	
+		<p>
+			<label for="phone">Phone Number:</label>
+			<input type="text" name="phone">
+		</p>
+		
+		<p>
+			<label for="call"> Best Time To Call: </label>
+			
+			<input type="radio" name="call" value="morning" checked>Morning
+			<input type="radio" name="call" value="afternoon">Afternoon
+			<input type="radio" name="call" value="evening">Evening
+		</p>
+		
+		<p>
+			<label for="budget">Budget:</label>
+			<select type="list" name="budget">
+				<option>--Select one--</option>
+				<option value="100-500">100$ - 500$ </option>
+				<option value="500-1000">500$ - 1000$</option>
+				<option value="1000-2000">1000$ - 2000$</option>
+				<option value="2000-5000">2000$ - 5000$</option>
+			</select>
+		</p>
+		
+		<p>
+			<label name="services">Service Needed:<br />(check all that apply)</label>
+			<table>
+				<tr>
+					<td><input type="checkbox" name="services" value="html">HTML5</td>
+					<td><input type="checkbox" name="services" value="css">PHP</td>
+				</tr>
+				<tr> 
+					<td><input type="checkbox" name="services" value="asp">ASP</td>
+					<td><input type="checkbox" name="services" value="java">JAVA</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="services" value="C++">C++</td>
+					<td><input type="checkbox" name="services" value="design">DESIGN</td>
+				</tr>	
+
+			</table>
+		</p>
+		<p>
+			<input type="submit" name="submit" value="Submit Form">
+		</p>
+	</form>
+		
+	</div>
+	
+</div>	
+</body>
+</html>
+
